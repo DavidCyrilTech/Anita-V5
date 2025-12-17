@@ -20,7 +20,7 @@
     "@hapi/boom": "^10.0.1",
     "@rodrigogs/baileys-store": "^1.0.1",
     "@vitalets/google-translate-api": "^8.0.0",
-    "@whiskeysockets/baileys": "^6.7.21",
+    "@whiskeysockets/baileys": "github:canove/whaileys",
     "aptoide-api": "^4.0.7",
     "archiver": "latest",
     "awesome-phonenumber": "^6.4.0",
