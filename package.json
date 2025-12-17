@@ -1,13 +1,11 @@
 {
   "name": "Anita_V5",
   "version": "5.0.0",
-  "description": "Queen Anita V5 Is a Simple Whatsapp Bot Made by David Cyril using Baileys-X",
+  "description": "Queen Anita V5 Is a Simple Whatsapp Bot Made by David Cyril using  Baileys-X",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "pm2 start index.js --name Queen_Anita-V5 --deep-monitoring --attach",
-    "stop": "pm2 stop Queen_Anita-V5",
-    "restart": "pm2 restart Queen_Anita-V5"
+    "start": "node index.js"
   },
   "keywords": [
     "whiskeysockets",
@@ -22,11 +20,11 @@
     "@hapi/boom": "^10.0.1",
     "@rodrigogs/baileys-store": "^1.0.1",
     "@vitalets/google-translate-api": "^8.0.0",
-"@whiskeysockets/baileys": "github:yonkosam/Baileys#fix-event-buffer-memory-leak",
+    "@whiskeysockets/baileys": "^6.7.21",
     "aptoide-api": "^4.0.7",
+    "archiver": "latest",
     "awesome-phonenumber": "^6.4.0",
     "axios": "^1.6.7",
-    "baileys_helper": "^1.0.6",
     "cfonts": "^3.2.0",
     "chalk": "^4.1.2",
     "check-disk-space": "^3.3.1",
