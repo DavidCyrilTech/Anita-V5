@@ -14,7 +14,7 @@
   "author": "David Cyril",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.7.19",
+    "@adiwajshing/baileys": "github:canove/whaileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
