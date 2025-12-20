@@ -1,11 +1,13 @@
 {
   "name": "Anita_V5",
   "version": "5.0.0",
-  "description": "Queen Anita V5 Is a Simple Whatsapp Bot Made by David Cyril using  Baileys-X",
+  "description": "Queen Anita V5 Is a Simple Whatsapp Bot Made by David Cyril using Baileys-X",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "pm2 start index.js --name Queen_Anita-V5 --deep-monitoring --attach",
+    "stop": "pm2 stop Queen_Anita-V5",
+    "restart": "pm2 restart Queen_Anita-V5"
   },
   "keywords": [
     "whiskeysockets",
@@ -14,16 +16,17 @@
   "author": "David Cyril",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "github:canove/whaileys",
+    "@adiwajshing/baileys": "npm:@whiskeysockets/baileys@^6.7.19",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@hapi/boom": "^10.0.1",
+    "@rodrigogs/baileys-store": "^1.0.1",
     "@vitalets/google-translate-api": "^8.0.0",
-    "@whiskeysockets/baileys": "github:canove/whaileys",
+"@whiskeysockets/baileys": "github:yonkosam/Baileys#fix-event-buffer-memory-leak",
     "aptoide-api": "^4.0.7",
-    "archiver": "latest",
     "awesome-phonenumber": "^6.4.0",
     "axios": "^1.6.7",
+    "baileys_helper": "^1.0.6",
     "cfonts": "^3.2.0",
     "chalk": "^4.1.2",
     "check-disk-space": "^3.3.1",
@@ -42,7 +45,7 @@
     "https-proxy-agent": "^7.0.6",
     "human-readable": "^0.2.1",
     "javascript-obfuscator": "^4.1.1",
-    "jimp": "^0.16.1",
+    "jimp": "^1.6.0",
     "jsdom": "^25.0.0",
     "lodash": "latest",
     "lolcatjs": "^2.4.1",
