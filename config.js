@@ -20,7 +20,7 @@ global.public = toBool(process.env.PUBLIC);
 
 global.packname = process.env.PACK_NAME;
 global.author = process.env.AUTHOR;
-global.ANTI_DELETE = toBool(process.env.ANTI_DELETE);
+global.ANTIDELETE = toBool(process.env.ANTI_DELETE);
 global.ANTI_CALL = toBool(process.env.ANTI_CALL);
 
 
