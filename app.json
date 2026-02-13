@@ -8,7 +8,7 @@
   "env": {
     "SESSION_ID": {
       "description": "Put your SESSION_ID here.",
-      "value": ""
+      "value": "{"noiseKey":{"private":{"type":"Buffer","data":"WAqgt+C8QSA7B2Ia8es7T9iFEW9OvRU0xZCaCSKzdHk="},"public":{"type":"Buffer","data":"Esz2RhIbNZ72UlEu9PmgFYVloYY9rudyYozcAscL5CI="}},"pairingEphemeralKeyPair":{"private":{"type":"Buffer","data":"wBZb21bvfl/ANEsSTPbxml9AqJSbQgfM5tjqTP10i0E="},"public":{"type":"Buffer","data":"o+EqQZNQRITOvtCZ6MVttlgFH84nHORR2dR5SgoYyDA="}},"signedIdentityKey":{"private":{"type":"Buffer","data":"iGGeIRnMwwOR1sU8v6cLkmL5pgpqRHa8CwVdBLU+u3M="},"public":{"type":"Buffer","data":"tQik1oYWXwRx94xwZl9PtQlIVgxw1CXptqg+KNDAAn8="}},"signedPreKey":{"keyPair":{"private":{"type":"Buffer","data":"cHKW4VHQ/3dFBfo1IrpjmRszo9tkc9zVp9GWO4WNJEc="},"public":{"type":"Buffer","data":"LevbtJBeDkg6vb386m7Ae6yGEIxFLlZ4Inf5tYLdIQQ="}},"signature":{"type":"Buffer","data":"u3JIhuj1bL9CwtHdTM79e2+apWHAu1M+a/OkzJVXquv8vxb8ui7lTnpvrwEC3LD8ubUmvGqvJKmT3fOPRzwJhg=="},"keyId":1},"registrationId":3,"advSecretKey":"zdi4EzCSPfKc+h8veIkrmlb9eAsmslLkoNH9hRtOMVs=","processedHistoryMessages":[],"nextPreKeyId":31,"firstUnuploadedPreKeyId":31,"accountSyncCounter":0,"accountSettings":{"unarchiveChats":false},"registered":true,"pairingCode":"MT4XC2W1","me":{"id":"254741749876:64@s.whatsapp.net","lid":"143478013059179:64@lid"},"account":{"details":"CNjG7pMCEJmhvswGGAkgACgA","accountSignatureKey":"+LX55jEMMAEAwd+Xy7P3Yk8EjsvCHOO7DVm9oAwEzBE=","accountSignature":"BZpbNKKfbldzKaYX337hOc+EsH3p1kF539TFeVKT14vS8E8SXss/SxbQchjDJPUVC7LyyAis+NRGoKA5nXhhBA==","deviceSignature":"FrAaFJSfV2gwOBVp276bqlbeowh2mFJCm+h7cxr8jy06UObgo0M4OO9KcGFq+M2IHixfzVe/7gvDXZyxTzYdjw=="},"signalIdentities":[{"identifier":{"name":"254741749876:64@s.whatsapp.net","deviceId":0},"identifierKey":{"type":"Buffer","data":"Bfi1+eYxDDABAMHfl8uz92JPBI7Lwhzjuw1ZvaAMBMwR"}}],"platform":"android","routingInfo":{"type":"Buffer","data":"CAIIDQgS"},"lastAccountSyncTimestamp":1771016354,"lastPropHash":"2V77qU","myAppStateKeyId":"AAAAAH/H","preKeys":{"private":{"type":"Buffer","data":"uC4bjc3blietKVKNp6YFPlXu/TKj/+has6rwD3xtX2U="},"public":{"type":"Buffer","data":"T0rF7oe9ZmPSMCOj+MLm/TX3Jr8KwabxgnMq558UEkU="}},"senderKeys":{},"timestamp":"2026-02-13T20:59:19.692Z"}"
     },
     "PREFIX": {
       "description": "Enter your desired prefix for bot. You can set `all | . | .!*`",
@@ -21,7 +21,7 @@
     },
     "AUTO_STATUS_REACT": {
       "description": "Set true to auto-react to Status.",
-      "value": "false",
+      "value": "true",
       "required": false
     },
       "ANTIDELETE": {
